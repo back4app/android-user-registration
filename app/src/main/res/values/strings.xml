@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">User Registration Example</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">O0yxCyaZ9OCVIx4iv1BLVIn8cPmolLWjhwtkaLLI</string>
+    <string name="back4app_client_key">XhhNY6tvh3midkHkOxgW355por56ssmxaryaF8Zp</string>
+    <color name="Black">#000000</color>
+</resources>
