@@ -67,10 +67,11 @@ public class LoginActivity extends AppCompatActivity {
                     public void done(ParseUser parseUser, ParseException e) {
                         if (parseUser != null) {
                             dlg.dismiss();
-                            alertDisplayer("Sucessful Login","Welcome back "+usernameView.getText().toString()+"!");
+                            alertDisplayer("Sucessful Login","Welcome back " + usernameView.getText().toString() + "!");
 
                         } else {
                             dlg.dismiss();
+                            ParseUser.logOut();
                             Toast.makeText(LoginActivity.this, e.getMessage(), Toast.LENGTH_LONG).show();
                         }
                     }

@@ -107,6 +107,7 @@ public class SignUpActivity extends AppCompatActivity {
 
                         } else {
                             dlg.dismiss();
+                            ParseUser.logOut();
                             Toast.makeText(SignUpActivity.this, e.getMessage(), Toast.LENGTH_LONG).show();
                         }
                     }
